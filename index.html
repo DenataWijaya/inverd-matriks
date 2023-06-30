@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Minor, Kofaktor, Dan Invers Pada Matriks</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Kalkulator Matriks <br></h1>
+        <div class="card-wrapper">
+            <div class="card-client">
+              <p class="name-client"> Denata Wijaya Aripin
+                <span>40621100064</span>
+              </p>
+            </div>
+        </div>
+        
+      <div class="container">
+        <label for="matrix">Masukkan Matriks:</label>
+        <textarea id="matrix" rows="5" cols="30" placeholder="Contoh:
+    1 2 3
+    5 6 2
+    8 9 3"></textarea>
+        <button onclick="calculateMinor()">Hitung Minor</button>
+        <button onclick="calculateCofactor()">Hitung Kofaktor</button>
+        <button onclick="calculateInverse()">Hitung Invers</button>
+      </div>
+      <div class="result">
+        <h2>Hasil:</h2>
+        <div id="result-container"></div>
+      </div>
+    </div>
+  </body>
+</html>
